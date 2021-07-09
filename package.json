@@ -1,0 +1,27 @@
+{
+  "name": "api-online-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "api-online-shop"
+  },
+  "keywords": [
+    "hapi.js",
+    "mongodb"
+  ],
+  "author": "Ricky Ackerman",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.5",
+    "@hapi/joi": "^17.1.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.10"
+  }
+}
